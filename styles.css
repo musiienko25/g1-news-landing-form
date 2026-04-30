@@ -28,13 +28,23 @@ body {
   display: flex;
   gap: 16px;
   align-items: center;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 600;
   color: #456;
+  transform: translateX(-80px);
 }
+
+.top-links-inner span:nth-child(1) { color: #0b7bbd; font-weight: 500; }
+.top-links-inner span:nth-child(2) { color: #c4170c; font-weight: 600; }
+.top-links-inner span:nth-child(3) { color: #2f9a48; font-weight: 500; }
+.top-links-inner span:nth-child(4) { color: #c28817; font-weight: 500; }
+.top-links-inner span:nth-child(5) { color: #c0186b; font-weight: 500; }
+.top-links-inner span:nth-child(6) { color: #a23a2a; font-weight: 500; }
+.top-links-inner span:nth-child(7) { color: #2f5378; font-weight: 500; }
+.top-links-inner span:nth-child(8) { color: #1b7f72; font-weight: 500; }
 
 .top-links-inner .active {
   color: #c4170c;
-  font-weight: 700;
 }
 
 .topbar-inner {
@@ -50,7 +60,7 @@ body {
 .logo {
   position: absolute;
   left: 18px;
-  font-size: 40px;
+  font-size: 34px;
   font-weight: 700;
   color: #fff;
   text-decoration: none;
