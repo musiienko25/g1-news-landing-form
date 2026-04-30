@@ -4,6 +4,9 @@ A simple landing page with a subscription/data collection form for a news servic
 
 ## 🚀 Demo
 
+Live version:
+https://g1-news-landing-form.vercel.app/
+
 You can run it locally in seconds without any build step:
 
 ```bash
