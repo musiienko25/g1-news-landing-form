@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>g1 - Noticia</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@23.8.0/build/css/intlTelInput.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="#lead-form" class="logo cta-link">g1</a>
+      <nav>
+        <a href="#lead-form" class="cta-link">Registrarse</a>
+        <a href="#lead-form" class="cta-link">Recibir informacion</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <article class="article">
+      <p class="eyebrow">México</p>
+      <h1>NOTICIA DE ULTIMA HORA: El secreto para enriquecerse que se mantuvo oculto para los ciudadanos de México durante mas de 10 anos</h1>
+      <p class="subtitle">
+        ¿Como es posible ganar decenas de miles de pesos de manera legal con los recursos nacionales?
+      </p>
+
+      <div class="article-body">
+        <p>Todos saben que los recursos naturales de México son un patrimonio de cada ciudadano del pais.</p>
+        <p>Manuel López Obrador: "Pero no todos los aprovechan. Esto se debe a que esta informacion nunca se habia divulgado antes. ¡Y creo que todos entendemos por que!"</p>
+        <p>Manuel López Obrador: "Todos conocen a la compania nacional mexicana PEMEX, ¿verdad?"</p>
+        <p>Maria González: "Si, la mayoria la conoce."</p>
+        <p>Manuel López Obrador: "¿Pero saben cual es su ingreso anual y cuantas ganancias ha generado para los mexicanos?"</p>
+        <p>Maria González: "No, no lo se."</p>
+        <p>Manuel López Obrador: "Esa es la cuestion. Pocas personas saben que PEMEX genera miles de millones de pesos al ano en ganancias. Y, lamentablemente, pocos sabian que en la plataforma de PEMEX cualquiera puede ganar facilmente decenas de miles de pesos de manera legal."</p>
+        <p>Maria González: "Entonces, ¿por que decidio contarlo ahora?".</p>
+        <p>Manuel López Obrador: "¿Y quien comparte sus secretos? Nadie, ¿cierto? Pero ahora ya tengo mis anos, y mi conciencia no me permite ocultar esto a los ciudadanos comunes de México."</p>
+        <p>Maria González : "Entonces, ¿cada ciudadano de México que se registre en la plataforma PEMEX puede ganar decenas de miles de pesos al mes?"</p>
+        <p>Manuel López Obrador: "Asi es. Pero hay algunos requisitos. Para garantizar que todo sea justo, el acceso esta disponible solo para ciudadanos de México mayores de 18 anos. Es necesario registrarse en el sitio oficial y completar una breve verificacion con la ayuda de los especialistas del proyecto. Despues, el equipo de la plataforma proporcionara toda la informacion necesaria."</p>
+        <p>Uno de nuestros redactores decidio probar personalmente como funciona la plataforma. Esto es lo que compartio:</p>
+        <p><strong>Primer dia:</strong> "Era escéptico al principio, pero decidi intentarlo. A los pocos minutos, me llamo un experto personal de la plataforma PEMEX. Me explico todos los detalles y me ayudo a abrir una cuenta de inversion. Deposite 500 pesos en la plataforma."</p>
+        <p><strong>Segundo dia:</strong> "Al dia siguiente revise la plataforma y me sorprendio. Mi cuenta habia aumentado a 800 pesos. ¡Realmente funciona!"</p>
+        <p><strong>Septimo dia:</strong> "No revise mi cuenta durante toda la semana, y cuando volvi a entrar, quede en shock. ¡El 85% de las operaciones resultaron ser rentables! En mi cuenta habia 23,500 pesos. Decidi retirar 10,000 pesos y regalarle algo especial a mi familia. ¡Es increible!"</p>
+      </div>
+
+      <div class="article-cta">
+        <a href="#lead-form" class="btn cta-link">Quiero recibir contacto</a>
+      </div>
+    </article>
+
+    <section id="lead-form" class="form-section">
+      <h2>Completa tus datos</h2>
+      <p>Todos los campos son obligatorios.</p>
+
+      <form id="contact-form" novalidate>
+        <label for="firstName">Nombre</label>
+        <input id="firstName" name="firstName" type="text" autocomplete="given-name" required minlength="2">
+
+        <label for="lastName">Apellido</label>
+        <input id="lastName" name="lastName" type="text" autocomplete="family-name" required minlength="2">
+
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+
+        <label for="phone">Telefono</label>
+        <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+
+        <p id="form-error" class="error" aria-live="polite"></p>
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#lead-form" class="cta-link">Volver al formulario</a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@23.8.0/build/js/intlTelInput.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
