@@ -5,43 +5,67 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f6f6f6;
+  background: #fff;
   color: #111;
 }
 
 .topbar {
-  position: sticky;
-  top: 0;
-  z-index: 10;
   background: #c4170c;
   color: #fff;
+  width: 100%;
+}
+
+.top-links {
+  width: 100%;
+  background: #f3f3f3;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.top-links-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 18px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  font-size: 14px;
+  color: #456;
+}
+
+.top-links-inner .active {
+  color: #c4170c;
+  font-weight: 700;
 }
 
 .topbar-inner {
-  max-width: 980px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 12px 16px;
+  padding: 10px 18px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .logo {
-  font-size: 34px;
+  position: absolute;
+  left: 18px;
+  font-size: 40px;
   font-weight: 700;
   color: #fff;
   text-decoration: none;
 }
 
-nav a {
+.header-editoria {
+  margin: 0;
   color: #fff;
-  text-decoration: none;
-  margin-left: 16px;
-  font-size: 14px;
+  font-size: 38px;
+  letter-spacing: 1px;
+  font-weight: 300;
 }
 
 .page {
-  max-width: 980px;
+  max-width: 700px;
   margin: 24px auto 48px;
   padding: 0 16px;
 }
@@ -49,9 +73,9 @@ nav a {
 .article,
 .form-section {
   background: #fff;
-  border-radius: 8px;
+  border-radius: 0;
   padding: 24px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  box-shadow: none;
 }
 
 .eyebrow {
