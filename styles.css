@@ -17,31 +17,31 @@ body {
 
 .top-links {
   width: 100%;
-  background: #f3f3f3;
-  border-bottom: 1px solid #e0e0e0;
+  background: #fff;
+  border-bottom: 1px solid #ececec;
 }
 
 .top-links-inner {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 10px 18px;
+  padding: 14px 18px;
   display: flex;
   gap: 16px;
   align-items: center;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   color: #456;
-  transform: translateX(-80px);
+  transform: translateX(-88px);
 }
 
-.top-links-inner span:nth-child(1) { color: #0b7bbd; font-weight: 500; }
-.top-links-inner span:nth-child(2) { color: #c4170c; font-weight: 600; }
-.top-links-inner span:nth-child(3) { color: #2f9a48; font-weight: 500; }
-.top-links-inner span:nth-child(4) { color: #c28817; font-weight: 500; }
-.top-links-inner span:nth-child(5) { color: #c0186b; font-weight: 500; }
-.top-links-inner span:nth-child(6) { color: #a23a2a; font-weight: 500; }
-.top-links-inner span:nth-child(7) { color: #2f5378; font-weight: 500; }
-.top-links-inner span:nth-child(8) { color: #1b7f72; font-weight: 500; }
+.top-links-inner span:nth-child(1) { color: #0b7bbd; font-weight: 700; }
+.top-links-inner span:nth-child(2) { color: #c4170c; font-weight: 700; }
+.top-links-inner span:nth-child(3) { color: #2f9a48; font-weight: 700; }
+.top-links-inner span:nth-child(4) { color: #c28817; font-weight: 700; }
+.top-links-inner span:nth-child(5) { color: #c0186b; font-weight: 700; }
+.top-links-inner span:nth-child(6) { color: #a23a2a; font-weight: 700; }
+.top-links-inner span:nth-child(7) { color: #2f5378; font-weight: 700; }
+.top-links-inner span:nth-child(8) { color: #1b7f72; font-weight: 700; }
 
 .top-links-inner .active {
   color: #c4170c;
@@ -50,7 +50,7 @@ body {
 .topbar-inner {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 10px 18px;
+  padding: 16px 18px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,7 +59,7 @@ body {
 
 .logo {
   position: absolute;
-  left: 18px;
+  left: 40px;
   font-size: 34px;
   font-weight: 700;
   color: #fff;
