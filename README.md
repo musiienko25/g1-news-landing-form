@@ -83,7 +83,5 @@ The layout is optimized for:
 
 ## 📌 Possible Improvements
 
-* Add form validation
 * Backend/API integration
-* Analytics integration (Google Analytics / Pixel)
 * Improve UX (loading states, success messages)
