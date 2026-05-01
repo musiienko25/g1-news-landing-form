@@ -37,10 +37,10 @@ http://localhost:5500
 
 ```
 /
+├── app.js
 ├── index.html
-├── styles/
-├── scripts/
-└── assets/
+├── styles.css
+└── thank-you.html
 ```
 
 *(adjust if your structure differs)*
