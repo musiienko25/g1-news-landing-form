@@ -30,7 +30,7 @@ http://localhost:5500
 ## 🛠 Technologies
 
 * HTML5
-* CSS3 (Flexbox / Grid)
+* CSS
 * JavaScript (vanilla)
 
 ## 📂 Project Structure
